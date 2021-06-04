@@ -37,3 +37,16 @@
     transform: translateY(0px);
   }
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-right: 25px;
+  padding-left: 5px;;
+  text-align: left;
+}
+
+table {
+  width: 200px;
+  height: 400px;
+}
