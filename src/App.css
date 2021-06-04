@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -38,15 +41,34 @@
   }
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding-right: 25px;
-  padding-left: 5px;;
+table, td {
+  border: 1px solid grey;
   text-align: left;
 }
 
 table {
-  width: 200px;
-  height: 400px;
+  width: 40%;
+  height: 300px;
+  border: white;
 }
+
+td {
+  padding-right: 15px;
+}
+
+input {
+  cursor: pointer;
+  margin: 6px;
+  padding: 0;
+}
+
+th {
+border: 1.5px solid black;
+}
+
+.first {
+  border: 1px solid white;
+}
+
+
+
